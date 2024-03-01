@@ -1,0 +1,435 @@
+/*FOOTER*/
+footer {
+  width: 100%;
+  margin-top: 2em;
+  background: #36312c;
+}
+
+#bg-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115px;
+  background: #F2F0EF;
+}
+
+#sign-up {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.sign-txt {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 600;
+}
+
+.sign-txt svg { 
+  float: left; 
+  margin-right: 1em;
+  margin-left: 0.5em;
+}
+
+#sign-form form { 
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+} 
+
+#sign-form input {
+  width: 315px;
+  height: 35px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 14px;
+  padding: 0 1.5em;
+  margin-right: 2em;
+}
+
+#sign-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  background: #36312c;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #FFF;
+  font-size: 14px;
+}
+
+#sign-form button:hover {
+  background: #aac4ce;
+  /* transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.3s; */
+  color: #36312c;
+}
+
+/* 
+#sign-form button:active {
+  background: #fff;
+  color: #FCAF17;
+  transform: scale(0.8);
+  transform: translateY(5px);
+} */
+
+#bt-sig-up {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 14px;
+} 
+
+#bt-sig-up a {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 35px;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#bt-sig-up a svg { margin-right: 0.5em; }
+
+#bt-sig-up a:hover {background: #dcdfe0; }
+
+#box-institutional {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  display: flex;
+  max-width: 1350px;
+  justify-content: space-around;
+  margin: 2em 4.5em 1em;
+}
+
+.institutional {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.institucional-topo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 0.3;
+  margin-top: 10px;
+}
+
+.footer-div1 { display: flex; flex: 1; }
+
+.container-space-institucional { flex: 1; }
+
+.flex-footer-central { flex: 1; }
+
+.block-inst { margin-bottom:0.7em; }
+
+.block-inst h3 {
+  display: flex;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #0da2da;
+}
+
+.icon-redes {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon-redes li { margin-right: 10px; }
+
+.block-inst li a,
+.block-inst p {
+  font-size: 13px;
+  color: #F2F0EF;
+}
+
+.block-inst p {
+  display: flex;
+  margin-top: 0.6em;
+  line-height: 2em;
+}
+
+.block-inst p svg { float: left; margin-right: 0.5em; }
+
+.block-inst li a:hover { color: #0da2da; }
+a[href^=tel] { color: inherit !important; text-decoration: none !important; }
+
+.follow { margin-top: 11px; }
+
+.follow ul li { float: left; margin: 0.7em 1.2em 0 0; }
+
+.pay-certificates li { float: left; margin: 1em 0.7em 1em 0; }
+
+#bg-address {
+  display: flex;
+  width: 100%;
+  background: #F2F0EF;
+  padding: 1em 0;
+  justify-content: center;
+}
+
+#bg-address p { font-size: 12px; text-align: center; }
+
+#footer-lgpd {
+  position: fixed;
+  z-index: 9999;
+  max-width: 1230px;
+  transition: 0.3s ease-in-out;
+  background: #fff;
+  bottom: 25px;
+  left: 10px;
+  right: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #aaa;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+  width: 96%;
+}
+
+#lgpd-accept {
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #41994C;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#footer-lgpd a { font-size: 14px; color: #FCAF17; }
+
+/*rodape do carrinho / checkout*/
+#box-checkout {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  padding: 2em;
+  margin: 2em auto;
+}
+
+.block-check { width: 37%; }
+
+.block-check ul { margin-left: 0; }
+
+.block-check ul li {
+  float: left;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.block-check ul li:last-child { margin-right: 0; }
+
+.login-sub {
+  width: auto;
+  max-width: 300px;
+  background: #F2F0EF;
+  box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 20%);
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 1em;
+}
+
+.titulo-login-sub {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #C0BAB6;
+  margin-bottom: 1em;
+}
+
+.form-login-sub input {
+  width: 100%;
+  border: 1px solid #C0BAB6;
+  border-radius: 1em;
+  font-size: 14px;
+  padding: 0 1em;
+  margin-right: 2em;
+  height: 40px;
+}
+
+/* .form-login-sub input[type='button'] {
+  width: 100%;
+  height: 35px;
+  background: #36312c;
+  border-radius: 1em;
+  color: #FCAF17;
+  font-size: 15px;
+  text-align: center;
+  margin: 1em 0;
+} */
+
+/* .quero-cadastrar-ou-sem-cadastro {
+  text-align: center;
+  border-bottom: 1px solid #C0BAB6;
+  margin-top: 10px;
+} */
+
+/* .quero-cadastrar-ou-sem-cadastro a:hover { color: #FCAF17; } */
+
+/*Modal de comparacao de produto*/
+.CompararModal {
+  display: none;
+  position: fixed;
+  width: 35%;
+  right: 4em;
+  bottom: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 21px -6px rgb(0 0 0 / 37%);
+  border-radius: 5px;  
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.close-CompararModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 68px;
+  background: #c61c44;
+  cursor: pointer;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.CompararModal label { font-weight: 400; font-size: 14px; }
+
+.ComparaImagemPreview {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ededed;
+}
+
+.ComparaImagemPreview img {
+  display: block;
+  height: 30px;
+  margin: 0.2em auto;
+}
+
+.CompararModal button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 68px;
+  background: #FCAF17;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  cursor: not-allowed;
+  font-size: 16px;
+}
+
+.CompararModal button svg {
+  top: -1px;
+  right: -5px;
+  position: relative;
+}
+
+@media (max-width: 524px) {
+  .CompararModal {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    right: 0px;
+  }
+
+  .CompararModal label { margin: auto; padding: inherit; }
+
+  .ComparaImagemPreview { margin: auto; }
+
+  .CompararModal button { width: auto; padding: 10px; }
+}
+
+  .modal-newsletter {
+    position: fixed;
+    top: 15%;
+    right: 0;
+    bottom: 15%;
+    left: 0;
+    z-index: 10000;
+  }
+
+  .modal-dialog-news {
+    position: relative;
+    width: 100%;
+    left: 66%;
+    top: 8em;
+  }
+
+  .modal-content-news {
+    display: flex;
+    width: 100%;
+    max-width: 480px;
+    height: 400px;
+    background: url(/visao/girafa/img/girafa-popup.png) no-repeat;
+    padding: 5em 1.3em 0 1.5em;
+  }
+
+  .modal-open .modal-newsletter {overflow-y: hidden; padding: 0;}
+
+  .close-popup {
+    display: block;
+    position: absolute;
+    left: 0.3em;
+    top: 4em;
+    color: #473729 !important;
+    font-weight: bold;
+  }
+
+  .modalConteudo { padding: 0!important; }
+
+  .modalTexto {
+    display: block;
+    color: #473729;
+    font-family: 'SaesGrotesk-Bold', sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+
+  .modalTexto strong { font-family: 'SaesGrotesk-Bold', sans-serif; color: #f2a717; }
+
+  .modalForm { width: 95%; margin-top: 1em; }
+
+  .modalForm input {
+    background: #f1f1f1;
+    border-radius: 1.3em;
+    height: 58px;
+    border: 1px solid #909090;
+    padding-left: 1.5em !important;
+  }
+
+  .modalForm input[type="button"] {
+    border-radius: 1em !important;
+    background: #473729;
+    color: #f2a717;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'SaesGrotesk-Bold', sans-serif;
+    padding-left: 0 !important;
+  }
+
+  @font-face {
+  font-family: SaesGrotesk-Bold;
+  src: url('/visao/girafa/fonts/SaesGrotesk-Bold.woff');
+  font-display: swap;
+}
