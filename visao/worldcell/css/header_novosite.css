@@ -155,7 +155,7 @@ header {
 .header-topo-p-div {
   display: flex;
   justify-content: center;
-  padding-left: 20px;
+  padding-left: 0px;
   align-items: center;
 }
 
@@ -169,7 +169,7 @@ nav {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .menu-style--menu { display: flex;}
