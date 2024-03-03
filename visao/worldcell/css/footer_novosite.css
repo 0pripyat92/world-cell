@@ -2,7 +2,7 @@
 footer {
   width: 100%;
   margin-top: 2em;
-  background: #000000;
+  background-image: linear-gradient(to right, #00030e, #02020e, #040414, #010116);
 }
 
 #bg-sign-up {

@@ -126,7 +126,7 @@ header {
   display: flex;
   width: 100%;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -135,7 +135,7 @@ header {
   flex-direction: column;
   width: 100%;
   margin-top: 2px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 }
 
 .lojas-especiais-header {
@@ -179,9 +179,8 @@ nav {
 #right-menu {
   display: flex;
   width: 100%;
-  border-radius: 5px;
-  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.61);
-  background-color: #000000; 
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.61); 
+  background-image: linear-gradient(to right, #00030e, #02020e, #070716, #060629);
   z-index: 99;
 }
 
@@ -467,14 +466,14 @@ nav {
   display: flex !important;
 } */
 
-#search form {
+/* #search form {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: right;
-}
+} */
 
-#search input[type='search'] {
+/* #search input[type='search'] {
   width: 250px;
   height: 33px;
   font-size: 12px;
@@ -483,7 +482,7 @@ nav {
   border-radius: 10px;
   padding-left: 1em;
   background-color: #F2F0EF;
-}
+} */
 
 #search button { display: flex; position: absolute; cursor: pointer; }
 
@@ -598,13 +597,13 @@ nav {
   right: 1em;
 } */
 
-#menu_mobile,
+/* #menu_mobile,
 #carrinho_mobile {
   display: none;
   width: 59px;
   text-align: center;
   padding-top: 18px;
-}
+} */
 
 #mascara_modal {
   width: 100%;
