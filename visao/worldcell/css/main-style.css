@@ -38,6 +38,10 @@
     margin: 0 auto;
   }
 
+  .shadow{
+    box-shadow: 3px 5px 7px rgb(17, 17, 17);
+  }
+
 /*produtos destaques, banner meio, banner-mini, banner final,  girafa indica*/
   #produtos-destaque,
   #produtos-destaque2,
